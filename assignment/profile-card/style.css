@@ -1,0 +1,109 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 222, 225);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: rgb(180, 182, 185);
+    width: 700px;
+}
+
+.top {
+    background: linear-gradient(to right, rgb(82, 53, 53), rgb(66, 44, 44), rgb(51, 31, 31));
+    height: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.middel {
+    padding: 10px;
+    display: flex;
+}
+
+.middel .info {
+    background: linear-gradient(to right, rgb(82, 53, 53), rgb(66, 44, 44), rgb(51, 31, 31));
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 7px;
+
+}
+
+.line {
+    height: 1px;
+    background-color: #fff;
+}
+
+img {
+    border-radius: 7px;
+    width: 300px;
+    margin: 5px 0;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 200;
+}
+.icons{
+    font-size: 25px;
+    color: rgb(75, 73, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.icons i{
+    margin: 0px 15px;
+}
+
+@media (max-width: 700px) {
+    .card {
+        border-radius: 15px;
+        background-color: rgb(180, 182, 185);
+        width: 320px;
+
+    }
+
+    .top {
+        background: linear-gradient(to right, rgb(82, 53, 53), rgb(66, 44, 44), rgb(51, 31, 31));
+        height: 25px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .middel {
+        padding: 10px;
+        display: block;
+    }
+
+    .middel .info {
+        background: linear-gradient(to right, rgb(82, 53, 53), rgb(66, 44, 44), rgb(51, 31, 31));
+        margin: 5px 10px;
+        padding: 5px 10px;
+        border-radius: 7px;
+
+    }
+
+    img {
+        border-radius: 7px;
+        width: 300px;
+        margin: 0;
+    }
+
+}
